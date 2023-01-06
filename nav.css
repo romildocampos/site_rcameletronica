@@ -63,6 +63,21 @@ body {
     text-align: center;
 }
 
+.div_p {
+    margin-bottom: 300px;
+    border: 1px solid black;border-radius: 5px;
+    font-weight: bold;
+    background-color: chartreuse;
+    margin-left: 40px;
+    align-items: center;
+    
+}
+
+label {
+    text-align: center;
+    margin-left: 40px;
+}
+
 .p_svg {
     padding: 20px;
     font-size: 1.4em;
@@ -86,6 +101,17 @@ body {
 }
 .p_celular {
     font-size: 1.5em;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 350px;
+    font-weight: bold;
+    color: chartreuse;
+}
+
+.div_p_celular {
+    margin-top: 40px;
+    margin-right: 350px;
+   
 }
 
 .span_celular {
@@ -365,7 +391,9 @@ footer {
     }
 
     .div_p {
-        
+        margin-bottom: 300px;
+        background-color: blue;
+        width: 200px;
     }
     #divs_imagem {
         display:flex;
